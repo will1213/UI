@@ -1,5 +1,4 @@
-## CPSC 481 Human-Computer Interaction 
+## CPSC 481 Human-Computer Interaction Group Project
 
-## Group Project
 
 ## This page will continuing update throughout the project 
