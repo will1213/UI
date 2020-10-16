@@ -4,4 +4,4 @@
 ## This page will continuing update throughout the project 
 
 
-Stage 2 tasks [GitHub Flavored Markdown](stage2.html).
+[Stage2 tasks](stage2.html).
