@@ -50,11 +50,18 @@ The following are could-be-includedfeatures, whichdeal with the quality oflife a
 8.Filter/sort librariesby streaming service, as well as genre,release date, popularity,etc.
 
 ## Appendix 
+
 Appendix A:
-The questions used in Surveys & Questionnaireswere:
+The questions used in Surveys & Questionnaires were:
 1.How old are you?
+
 2.Have you used online streaming services before (e.g., Netflix, Disney+, Amazon Prime Video)?
+
 3.How often do you use online streaming services?
+
 4.How do you look up a specific movie or show to watch?
+
 5.Have you ever thought of watching movies or shows with friends? How would you do it?Keep in consideration that we are in the middle of a pandemic?
+
+
 
