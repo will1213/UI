@@ -34,6 +34,7 @@ As mentioned earlier, using these research methods provided us with a lot of inf
 
 ## List of 8 user tasks 
 The following are must-be-includedfeatures, whichdeal with the media streaming aspect of our project.These features must be included since they form the foundation of what we want to provide to our users, which is a way to compile all their streaming services into one place.
+
 1.Add/remove/manage streaming servicesby linking/unlinking them toanaccounton our side
 2.Browse librariesof movies/showsbyscrolling through an array of representativethumbnails
 3.Search for specific movies/showsusingasearch bar with ‘as-you-type’suggestions
