@@ -36,14 +36,19 @@ As mentioned earlier, using these research methods provided us with a lot of inf
 The following are must-be-includedfeatures, whichdeal with the media streaming aspect of our project.These features must be included since they form the foundation of what we want to provide to our users, which is a way to compile all their streaming services into one place.
 
 1.Add/remove/manage streaming servicesby linking/unlinking them toanaccounton our side
+
 2.Browse librariesof movies/showsbyscrolling through an array of representativethumbnails
+
 3.Search for specific movies/showsusingasearch bar with ‘as-you-type’suggestions
+
 4.Watch movies/showsusinganembedded videoplayer
 
 The following are importantfeatures, whichdeal with the social aspect of our project.These features are important since they set us apart from current streaming services, whichdo not providesocial features.
 
 5.Add/remove/manage friendsthrough a dedicated friends list page/UI
+
 6.Invite/join friends to watch movies/showsusingthe previously mentioned video player
+
 7.Enable/disable sharing of watch activityusing a slider buttonthat isaccessiblein all pages
 
 The following are could-be-includedfeatures, whichdeal with the quality oflife aspect of our project.They are not required to complete our project, but they would be nice to have, since they enhanceand makeit easier to use our service.
