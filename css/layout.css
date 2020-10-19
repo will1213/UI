@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Circular Std Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/CircularStd-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/CircularStd-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/CircularStd-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/CircularStd-Medium.woff') format('woff');
+}
+
+body {
+    font-family: 'Circular Std Medium';
+    color: #090C08;
+    line-height: 2.5;
+}
+
+h1 {
+    color: #FF5C5C;
+    font-family: 'Circular Std Black';
+    font-size: 4em;
+}
+
+a,
+a:hover {
+    color: #090C08;
+}
+
+p a,
+p a:hover {
+    color: #FEA634;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.navbar {
+    padding: 2.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.div-main {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.div-centered {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 580px) {
+    h1 {
+        font-size: 3em;
+    }
+}
