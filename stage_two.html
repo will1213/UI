@@ -18,15 +18,27 @@
 </head>
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-light fadeIn animated">
-        <a class="navbar-brand" href="index.html">
-            Streaming Service Compiler
-        </a>
-        <a href="stage_one.html">Stage 1</a>
-        <a href="stage_two.html">Stage 2</a>
-        <a href="stage_three.html">Stage 3</a>
-        <a href="stage_four.html">Stage 4</a>
-        <a href="stage_five.html">Stage 5</a>
+    <nav class="navbar navbar-expand-md navbar-light fadeIn animated">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Stages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="stage_one.html">Stage 1</a>
+                        <a class="dropdown-item" href="stage_two.html">Stage 2</a>
+                        <a class="dropdown-item" href="stage_three.html">Stage 3</a>
+                        <a class="dropdown-item" href="stage_four.html">Stage 4</a>
+                        <a class="dropdown-item" href="stage_five.html">Stage 5</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- Content -->
     <div class="container div-main div-centered fadeIn animated">

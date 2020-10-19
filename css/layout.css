@@ -38,6 +38,10 @@ h1 {
     font-size: 4em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 a,
 a:hover {
     color: #090C08;
@@ -59,6 +63,10 @@ li {
     z-index: 1;
 }
 
+.dropdown-item:active {
+    background-color: #FF5C5C;
+}
+
 .div-main {
     height: 100vh;
     max-width: 100%;
@@ -71,7 +79,16 @@ li {
 }
 
 @media only screen and (max-width: 580px) {
-    h1 {
-        font-size: 3em;
+    body {
+        font-size: 0.75em;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .div-main {
+        height: 100%;
+        max-width: 80%;
     }
 }
