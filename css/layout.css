@@ -47,18 +47,28 @@ a:hover {
     color: #090C08;
 }
 
+p {
+    line-height: 2.5;
+    text-align: justify;
+}
+
 p a,
 p a:hover {
     color: #FEA634;
 }
 
 li {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+}
+
+img {
+    padding-bottom: 2em;
+    width: 100%;
 }
 
 .navbar {
     padding: 2.5em;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1;
 }
@@ -68,8 +78,9 @@ li {
 }
 
 .div-main {
-    height: 100vh;
-    max-width: 100%;
+    height: 100%;
+    padding: 6em;
+    width: 100vw;
 }
 
 .div-centered {
@@ -78,9 +89,22 @@ li {
     justify-content: center;
 }
 
-@media only screen and (max-width: 580px) {
+.content-h2 {
+    padding-top: 1.5em;
+}
+
+.content-h3 {
+    padding-top: 1.5em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     body {
         font-size: 0.75em;
+    }
+
+    p {
+        text-align: left;
     }
 
     .navbar {
@@ -89,6 +113,7 @@ li {
 
     .div-main {
         height: 100%;
-        max-width: 80%;
+        padding: 3em;
+        width: 100vw;
     }
 }
