@@ -66,6 +66,11 @@ img {
     width: 100%;
 }
 
+video {
+    padding-bottom: 2em;
+    width: 100%;
+}
+
 .navbar {
     padding: 2.5em;
     position: relative;
