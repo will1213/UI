@@ -103,6 +103,7 @@ video {
 }
 
 .coverPage {
+    width: 100vw;
     background-image: url("https://spy.com/wp-content/uploads/2019/11/best-tv-streaming-services-feature-image.jpg?w=958&h=599&crop=1");
     opacity: 0.2;
 }
