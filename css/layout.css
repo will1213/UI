@@ -102,6 +102,11 @@ video {
     padding-top: 1.5em;
 }
 
+.container div-main div-centered fadeIn animated {
+    background-image: url("https://spy.com/wp-content/uploads/2019/11/best-tv-streaming-services-feature-image.jpg?w=958&h=599&crop=1");
+    opacity: 0.5;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
