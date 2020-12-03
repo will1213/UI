@@ -42,7 +42,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="stage_one.html">Stage 1 Summary</a>
-                        <a class="dropdown-item" href="potential_project_ideas.html">Potential Project Ideas</a>
+                        <a class="dropdown-item" href="stage_one_potential_project_ideas.html">Potential Project Ideas</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -52,9 +52,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="stage_two.html">Stage 2 Summary</a>
-                        <a class="dropdown-item" href="selected_project_idea.html">Selected Project Idea</a>
-                        <a class="dropdown-item" href="research.html">Research</a>
-                        <a class="dropdown-item" href="user_tasks.html">User Tasks</a>
+                        <a class="dropdown-item" href="stage_two_selected_project_idea.html">Selected Project Idea</a>
+                        <a class="dropdown-item" href="stage_two_research.html">Research</a>
+                        <a class="dropdown-item" href="stage_two_user_tasks.html">User Tasks</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -66,8 +66,8 @@
                         <a class="dropdown-item" href="stage_three.html">Stage 3 Summary</a>
                         <a class="dropdown-item" href="stage_three_updated_project_idea.html">Updated Project Idea</a>
                         <a class="dropdown-item" href="stage_three_updated_user_tasks.html">Updated User Tasks</a>
-                        <a class="dropdown-item" href="storyboard.html">Storyboard</a>
-                        <a class="dropdown-item" href="cognitive_walkthrough.html">Cognitive Walkthrough</a>
+                        <a class="dropdown-item" href="stage_three_storyboard.html">Storyboard</a>
+                        <a class="dropdown-item" href="stage_three_cognitive_walkthrough.html">Cognitive Walkthrough</a>
                         <a class="dropdown-item" href="stage_three_presentation.html">Stage 3 Presentation</a>
                     </div>
                 </li>
@@ -80,7 +80,7 @@
                         <a class="dropdown-item" href="stage_four.html">Stage 4 Summary</a>
                         <a class="dropdown-item" href="stage_four_updated_project_idea.html">Updated Project Idea</a>
                         <a class="dropdown-item" href="stage_four_updated_user_tasks.html">Updated User Tasks</a>
-                        <a class="dropdown-item" href="heuristic_evaluation.html">Heuristic Evaluation</a>
+                        <a class="dropdown-item" href="stage_four_heuristic_evaluation.html">Heuristic Evaluation</a>
                         <a class="dropdown-item" href="stage_four_presentation.html">Stage 4 Presentation</a>
                     </div>
                 </li>
@@ -99,47 +99,33 @@
     <!-- Content -->
     <div class="container div-main div-centered fadeIn animated">
         <div>
-            <h1>Heuristic Evaluation</h1>
-            <h2 class='content-h2'>Process</h2>
-            <p class='content-p'>Our evaluators used Nielsen and Molich’s 10 User Interface Design Heuristics to
-                evaluate the four currently prototyped user tasks in our project. As mentioned before, the user tasks we
-                prototyped include: (1) browsing libraries of movies and shows, (2) searching for specific movies and
-                shows, (3) watching movies and shows using an embedded video player, and (4) aggregating and displaying
-                ratings of movies and shows. Each evaluator independently performed the four user tasks through our
-                high-fidelity prototype and recorded the issues they experienced while also including details regarding
-                which usability heuristics were violated. The remaining team members (i.e., reviewers) then reviewed and
-                analyzed the evaluators’ observations, rating each issue on a scale of severity from 0 (non-issue) to 4
-                (usability catastrophe). After the evaluators and reviewers independently completed their tasks, all
-                members came together to discuss the issues and brainstorm ideas to resolve them.</p>
-            <h2 class='content-h2'>Findings</h2>
-            <p class='content-p'>After the evaluators completed their heuristic evaluation documents, they presented
-                them to the reviewers to review and analyze. While working separately, each reviewer created a table in
-                which they listed the issues that were observed by the evaluators, as well as the usability heuristics
-                the issues violated and the severity of the violations. Once the reviewers completed their tables, they
-                aggregated their data into one table to more simply showcase the issues found by the evaluators. After
-                this, all members of the team met up to discuss the findings and determine which issues needed to be
-                fixed in this iteration. Through this process, we found 11 issues with our prototype, which violated a
-                usability heuristic from Nielsen and Molich’s 10 User Interface Design Heuristics. For the most part,
-                our four prototyped user tasks were able to achieve their promised functionalities. The reason for this
-                is because we never reached the maximum severity of 4 (usability catastrophe) for any issue. In fact,
-                our average severity for all 11 issues is 2.27. Nonetheless, we were determined to fix a few issues.</p>
-            <p class='content-p'>First, let us discuss which issues we decided not to fix. Since our prototype has
-                limited and controlled user actions, there is no way to break it in any way. As a result, we decided to
-                leave the issues of not having error messages or help documentation for our next prototype iteration. As
-                well, we decided not to fix issues that could not be fixed through our prototyping software, Figma, due
-                to limitations of what can be prototyped in it. For example, one of our evaluators noted that there is
-                no way to perform single-character deletion in our prototype’s search bar. But the reason for this is
-                because we could not find an easy/built-in way to do this type of prototyping in Figma without using
-                external plugins.</p>
-            <p class='content-p'>Now, let us discuss which issues we decided to fix. Basically, we decided to fix the
-                rest of our issues which were not mentioned in the previous paragraph. Most of them are just minor
-                oversights and fixing them increases the quality of life of our users. So, it seemed reasonable to focus
-                on these ones first. As for our solutions for fixing these issues, we were inspired heavily, if not
-                completely, by what the evaluators wrote down in the “How can this rule further improve usability,
-                utility, and desirability” column of their heuristic evaluations.</p>
+            <h1>User Tasks</h1>
+            <h2 class='content-h2'>Must-Be-Included Features</h2>
+            <p class='content-p'>The following are must-be-included features since they form the foundation of what we
+                want to provide to our users, which is a way to compile all their streaming services into one place.</p>
+            <ul class='content-ul'>
+                <li>Add/remove/manage streaming services by linking/unlinking them to an account on our side</li>
+                <li>Browse libraries of movies/shows by scrolling through an array of representative thumbnails</li>
+                <li>Search for specific movies/shows using a search bar with ‘as-you-type’ suggestions</li>
+                <li>Watch movies/shows using an embedded video player</li>
+            </ul>
+            <h2 class='content-h2'>Important Features</h2>
+            <p class='content-p'>The following are important features since they set us apart from current streaming
+                services, which do not provide social features.</p>
+            <ul class='content-ul'>
+                <li>Add/remove/manage friends through a dedicated friends list page/UI</li>
+                <li>Invite/join friends to watch movies/shows using the previously mentioned video player</li>
+                <li>Enable/disable sharing of watch activity using a slider button that is accessible in all pages</li>
+            </ul>
+            <h2 class='content-h2'>Could-Be-Included Features</h2>
+            <p class='content-p'>The following are could-be-included features since they enhance and make it easier to
+                use our service but are not required to complete the project.</p>
+            <ul class='content-ul'>
+                <li>Filter/sort libraries by streaming service, as well as genre, release date, popularity, etc.</li>
+            </ul>
             <p>For more details on this stage, check out our <a
-                    href="https://github.com/rainerangelo/cpsc-481-team-g-project/blob/stage_four/Project%20Stage%204%20Tasks.pdf"
-                    target="_blank">Stage 4 report</a> or <a
+                    href="https://github.com/rainerangelo/cpsc-481-team-g-project/blob/stage_two/Project%20Stage%202%20Tasks.pdf"
+                    target="_blank">user research report</a> or <a
                     href="https://github.com/rainerangelo/cpsc-481-team-g-project" target="_blank">our online
                     repository</a>.</p>
         </div>
