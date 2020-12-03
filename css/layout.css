@@ -78,6 +78,14 @@ video {
     z-index: 1;
 }
 
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #FF5C5C;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FF5C5C;
+}
+
 .dropdown-item:active {
     background-color: #FF5C5C;
 }
